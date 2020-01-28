@@ -1,18 +1,19 @@
 # MATRIX blockchain smartcontract compile and deploy tool 
-1.进入command目录，然后
-1.nvm use 10.15
-
-1.更新数据库，会读取对应的require
+1. 进入command目录，然后
+```bash
+nvm use 10.15
+```
+1. 更新数据库，会读取对应的require
  
- ```
+```
  npm install
 ```
-1.需要编译某个文件
+1. 需要编译某个文件
 ```bash
 node-gyp rebuild
 npm run rebuild 
 ```
-1.再次更新
+1. 再次更新
 ```
 npm install
 ```
@@ -20,7 +21,7 @@ npm install
 ```
 node deploy
 ```
-1.在其中选择对应的菜单
+1. 在其中选择对应的菜单
 
 ## 配置方法
  
@@ -49,7 +50,7 @@ deploy.run();
         super.run()
     }
 
-```javascript
+```
 
 ### remix的运行方式
 remix-ide
